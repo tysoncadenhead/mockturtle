@@ -1,5 +1,5 @@
 {
-  "name": "mock_turtle",
+  "name": "mockturtle",
   "version": "1.0.0",
   "description": "Mock commonjs modules for better unit testing",
   "main": "lib/mockturtle.js",
