@@ -1,0 +1,14 @@
+{
+  "name": "mock_turtle",
+  "version": "1.0.0",
+  "description": "Mock commonjs modules for better unit testing",
+  "main": "lib/mockturtle.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "Tyson Cadenhead",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^1.3.0"
+  }
+}
