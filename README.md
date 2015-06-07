@@ -4,6 +4,10 @@
 
 MockTurtle is a small library for unit testing CommonJS modules in isolation of each other. With MockTurtle, you can write your modules like you normally would, but when you write your tests, you will import your modules using the `MockTurtle()` function instead of `require()`. MockTurtle works with any testing framework that runs in Node.
 
+## Installing
+
+`npm install mockturtle --save-dev`
+
 ## API
 
 `MockTurtle()` accepts three parameters: a string representing the path to your file that you want to require, an object with all of your mocked out dependencies to get injected into the module and the `__dirname` of the file. The `__dirname` is used behind the scenes to resolve the module, so it is often very important to remember. Again, the API is:
